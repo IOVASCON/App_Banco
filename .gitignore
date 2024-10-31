@@ -1,0 +1,27 @@
+# Ignorar a pasta de build
+dist/
+
+# Ignorar arquivos de configuração do ambiente local
+.env
+
+# Ignorar arquivos de cache do TypeScript e do Node.js
+node_modules/
+*.tsbuildinfo
+
+# Ignorar arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de sistema (no caso de Windows e macOS)
+.DS_Store
+Thumbs.db
+
+# Ignorar configuração de IDEs (exemplo: VSCode)
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignorar possíveis arquivos gerados pelo sistema ou IDEs
+*.swp
+*~
